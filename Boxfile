@@ -1,0 +1,19 @@
+global:
+  env:
+    - APP_ENV: pagoda
+db1:
+  name: l5app1
+  type: mysql
+web1:
+  name: l5app1
+  php_version: 5.6.8
+  php_date_timezone: "Asia/Tokyo"
+  php_extentions:
+    - pdo_mysql
+    - zip
+  document_root: public
+  after_build:
+    - "curl -s http://getcomposer.org/installer | php"
+    - "php composer.phar install"
+  before_deploy:
+    - "php artisan migrate"

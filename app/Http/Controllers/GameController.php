@@ -59,7 +59,7 @@ class GameController extends Controller {
         if (!Session::has('savedata')) {
             return Redirect('game/load');
         }
-		return View('Game', ['messages' => []]);
+		return View('game', ['messages' => []]);
 	}
 
     public function attack()

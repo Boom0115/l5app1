@@ -4,16 +4,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <a href="/game/attack" class="btn btn-default">攻撃</a>
-                <a href="/game/heal" class="btn btn-default">回復</a>
-                <a href="/game/buy" class="btn btn-default">購入</a>
-                <a href="/game/reset_monster" class="btn btn-default">モンスターリセット</a>
+                <a href="../game/attack" class="btn btn-default">攻撃</a>
+                <a href="../game/heal" class="btn btn-default">回復</a>
+                <a href="../game/buy" class="btn btn-default">購入</a>
+                <a href="../game/reset_monster" class="btn btn-default">モンスターリセット</a>
 
                 <div class="btn-group" role="group">
-                    <a href="/game/create" class="btn btn-default">新規作成</a>
-                    <a href="/game/delete" class="btn btn-default">削除</a>
-                    <a href="/game/save" class="btn btn-default">セーブ</a>
-                    <a href="/game/load" class="btn btn-default">ロード</a>
+                    <a href="../game/create" class="btn btn-default">新規作成</a>
+                    <a href="../game/delete" class="btn btn-default">削除</a>
+                    <a href="../game/save" class="btn btn-default">セーブ</a>
+                    <a href="../game/load" class="btn btn-default">ロード</a>
                 </div>
 
                 <hr/>

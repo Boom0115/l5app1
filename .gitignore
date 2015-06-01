@@ -3,3 +3,4 @@
 .env
 database/seeds/
 .idea/
+nbproject/
